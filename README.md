@@ -1,5 +1,5 @@
 # novi-plugin-camera-slider
-Novi Builder Plugin for visual jQuery Camera Slider customization.
+Novi Builder Plugin for visual [jQuery Camera Slider](http://www.pixedelic.com/plugins/camera/) customization.
 
 ## How to Intall
 You should follow several simple steps to intall this plugin:
