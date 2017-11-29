@@ -4,12 +4,13 @@ const React = novi.react.React;
 const Icons = novi.ui.icons;
 const Icon = novi.ui.icon;
 const Types = novi.types;
-
+const Language = novi.language;
+const messages = Language.getDataByKey("novi-plugin-camera-slider");
 const ReplaceImageItem = {
     trigger: <Icon>{Icons.ICON_BG_IMAGE}</Icon>,
-    tooltip: "Replace Slide Image",
+    tooltip: messages.editor.replaceImage.tooltip,
     closeIcon: "submit",
-    title: "Replace Slide Image",
+    title: messages.editor.replaceImage.title,
     onTriggerClick: onClick
 };
 

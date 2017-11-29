@@ -2,12 +2,13 @@ import * as Utils from "./Utils";
 const React = novi.react.React;
 const Icons = novi.ui.icons;
 const Icon = novi.ui.icon;
-
+const Language = novi.language;
+const messages = Language.getDataByKey("novi-plugin-camera-slider");
 const AddSlideItem = {
     trigger: <Icon>{Icons.ICON_PLUS_SQUARE}</Icon>,
-    tooltip: "Add Slide",
+    tooltip: messages.editor.addSlide.tooltip,
     closeIcon: "submit",
-    title: "Add New Slide",
+    title: messages.editor.addSlide.title,
     collapsed: true,
     onTriggerClick: addSlide
 };
