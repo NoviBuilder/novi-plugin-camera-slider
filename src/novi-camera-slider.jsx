@@ -8,9 +8,9 @@ const Plugin = {
     name: "novi-plugin-camera-slider",
     title: "Novi Camera Slider",
     description: "Novi Camera Slider description",
-    version: "1.0.2",
+    version: "1.0.3",
     dependencies: {
-        novi: "0.8.6"
+        novi: "0.9.0"
     },
     defaults: {
         querySelector: '.camera_wrap'
